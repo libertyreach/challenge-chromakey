@@ -57,7 +57,7 @@ We recommend using `vcpkg` to manage dependencies to avoid pathing issues.
 
 ```powershell
 # 1. Install dependencies
-git clone [https://github.com/Microsoft/vcpkg.git](https://github.com/Microsoft/vcpkg.git)
+git clone https://github.com/Microsoft/vcpkg.git
 .\vcpkg\bootstrap-vcpkg.bat
 .\vcpkg\vcpkg install qt6:x64-windows opencv:x64-windows
 
